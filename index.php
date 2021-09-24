@@ -8,8 +8,8 @@ require_once('./includes/database.php');?>
                                 <h1 class="display-5 fw-bolder text-white mb-2">Une plateforme communautaire d'étudiant</h1>
                                 <p class="lead fw-normal text-white-50 mb-4">Partage de notes en temps réel ! Et l'horaire plus clair que le tableau excel là :)</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Notes de cours</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="/prehoraires">Horaire</a>
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="./notes.php">Notes de cours</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="./prehoraires.php">Horaire</a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ require_once('./includes/database.php');?>
                             <div class="text-center my-5">
                                 <h1 class="fw-bolder mb-3">Des demandes à faire ? Des questions en général ? Envie de nous aider ? </h1>
                                 <p class="lead fw-normal text-muted mb-4">Pour n'importe quelle question/demande</p>
-                                <a class="btn btn-primary btn-lg" href="contact.php">Contactez-nous</a>
+                                <a class="btn btn-primary btn-lg" href="./about.php">Contactez-nous</a>
                             </div>
                         </div>
                     </div>
