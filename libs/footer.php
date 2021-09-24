@@ -5,7 +5,7 @@
                     <div class="col-auto">
                         <a class="link-light small" href="#!">Rejoindre notre discord</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Crédits</a>
+                        <a class="link-light small" href="./credits.php">Crédits</a>
                     </div>
                 </div>
             </div>
