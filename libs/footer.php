@@ -3,7 +3,7 @@
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; tout est en open source gros (va voir les crédits)</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Rejoindre notre discord</a>
+                        <a class="link-light small" href="https://discord.gg/zkaFJU6AKv">Rejoindre notre discord</a>
                         <span class="text-white mx-1">&middot;</span>
                         <a class="link-light small" href="./credits.php">Crédits</a>
                     </div>

@@ -86,6 +86,7 @@ $groupe = $_GET["groupe"];
                             <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
                             <li class="nav-item"><a class="nav-link" href="prehoraires.php">Horaire</a></li>
                             <li class="nav-item"><a class="nav-link" href="notes.php">Notes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="propofile.php">Ajouter ses notes</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.php">A propos</a></li>
                         </ul>
                     </div>

@@ -1,4 +1,16 @@
-<?php include_once('./libs/header.php'); ?>
+<?php include_once('./libs/header.php'); 
+
+?>
+<!-- CREATE TABLE `notes` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `file_name` varchar(255) NOT NULL,
+  `file_type` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ALTER TABLE `notes`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id` (`id`);
+ALTER TABLE `notes`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;-->
 <section class="py-5">
                 <div class="container px-5 my-5">
                     <div class="text-center mb-5">
@@ -55,9 +67,8 @@
                                         <div class="text-center">
                                             <div class="h6 fw-bolder">Envie de partager tes notes ?</div>
                                             <p class="text-muted mb-4">
-                                                Envoie les ici
-                                                <br />
-                                                <a href="#!">lien à mettre</a>
+                                            Envoie les
+                                                <a href="./propofile.php">ici</a>
                                             </p>
                                             <div class="h6 fw-bolder">Rejoins nous</div>
                                             <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
