@@ -79,7 +79,7 @@ $groupe = $_GET["groupe"];
         <main class="flex-shrink-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.php">Notes Infi</a>
+                    <a class="navbar-brand" href="index.php">InfiNotes</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -96,7 +96,7 @@ $groupe = $_GET["groupe"];
                 <div class="container">
                     <div class="text-center mb-5">
                         <h1 class="fw-bolder">Horaire de l'HELB</h1>
-                        <p class="lead fw-normal text-muted mb-0"><?php echo $_GET["cursus"]; ?> Groupe : <?php echo $_GET["groupe"]; ?></p>
+                        <p class="lead fw-normal text-muted mb-0">Cliquez sur les cours pour plus d'info<br><?php echo $_GET["cursus"]; ?> Groupe : <?php echo $_GET["groupe"]; ?></p>
                         <div id='calendar'></div>
                     </div>
                     <div id='calendar'></div>
