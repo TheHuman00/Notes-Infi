@@ -5,11 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Notes - Infirmier</title>
+        <title><?php if(!empty($pagetitre)){echo $pagetitre;}else{echo "Notes - Infirmier";}?></title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link href="css/styles.css" rel="stylesheet" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGSLL8Z6DB"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NGSLL8Z6DB');
+        </script>
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">

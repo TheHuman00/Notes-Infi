@@ -1,4 +1,4 @@
-<?php 
+<?php $pagetitre = "Proposer notes - Infinotes";
 include_once('./libs/header.php'); 
 include_once('./includes/function.php');
 include_once('./includes/sql.php'); 

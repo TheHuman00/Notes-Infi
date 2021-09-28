@@ -1,4 +1,5 @@
-<?php include_once('./libs/header.php'); ?>
+<?php $pagetitre = "A propos - Infinotes";
+include_once('./libs/header.php'); ?>
             <header class="py-5">
                 <div class="container px-5">
                     <div class="row justify-content-center">

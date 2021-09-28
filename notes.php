@@ -1,4 +1,6 @@
-<?php include_once('./libs/header.php'); 
+<?php 
+$pagetitre = "Notes - Infinotes";
+include_once('./libs/header.php'); 
 
 ?>
 <!-- CREATE TABLE `notes` (

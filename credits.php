@@ -1,4 +1,5 @@
-<?php include_once('./libs/header.php'); ?>
+<?php $pagetitre = "Credits - Infinotes";
+include_once('./libs/header.php'); ?>
         <section class="text-center my-5">
             <h1 class="fw-bolder mb-3">Credit</h1>
                 <div class="container px-5">

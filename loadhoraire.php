@@ -355,7 +355,7 @@ foreach($horaires as $horaire) {
                 $data[] = array(
                     'id'   => $horaire["id"],
                     'title'   => $horaire["COURS_18H30_20H30"],
-                    'title'   => $horaire["COURS_20H30"].' Local : '.$horaire['LOCAL_20H30'],
+                    'start'   => $horaire["DATE"].'T20:30',
                     'end' => $horaire["DATE"].'T22:30'
                 );
             }

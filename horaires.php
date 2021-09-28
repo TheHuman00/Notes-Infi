@@ -1,4 +1,5 @@
 <?php 
+$pagetitre = "Horaires - Infinotes";
 require_once('./includes/function.php');
 require_once('./includes/sql.php');
 if($_GET['cursus'] == 'Selectionner le cursus' || $_GET['groupe'] == 'Selectionner votre groupe') {
@@ -14,7 +15,7 @@ $groupe = $_GET["groupe"];
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Horaire - Infirmier</title>
+        <title>Horaire - Infinotes</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
@@ -73,6 +74,14 @@ $groupe = $_GET["groupe"];
 
         });
 
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGSLL8Z6DB"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NGSLL8Z6DB');
         </script>
     </head>
     <body class="d-flex flex-column h-100">
