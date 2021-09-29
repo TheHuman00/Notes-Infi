@@ -21,7 +21,7 @@ include_once('./libs/header.php'); ?>
                         <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://i.imgur.com/0zSWdUC.png" alt="..." /></div>
                         <div class="col-lg-6">
                             <h2 class="fw-bolder">Comment le site est fait ?</h2>
-                            <p class="lead fw-normal text-muted mb-0">Site en PHP avec comme plugin fullcalendar pour le calendrier. Les crédits sont dans le footer.<br>Le site est en open source sur github. <a href="google.com">Ici le lien<a></p>
+                            <p class="lead fw-normal text-muted mb-0">Site en PHP avec comme plugin fullcalendar pour le calendrier. Les crédits sont dans le footer.<br>Le site est en open source sur github. <a href="https://github.com/TheHuman00/Notes-Infi">Ici le lien<a></p>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ include_once('./libs/header.php'); ?>
                             <div class="text-center">
                                 <img class="img-fluid rounded-circle mb-4 px-4" src="https://i.imgur.com/56DI2vY.jpg" alt="..." width="200" height="200"/>
                                 <h5 class="fw-bolder">Guillaume Boen</h5>
-                                <div class="fst-italic text-muted">Etudiant en 1er Infi <br> Site internet - Horaires - Notes</div>
+                                <div class="fst-italic text-muted">Etudiant en 1er Infi</div>
                             </div>
                         </div>
                         <div class="col mb-5 mb-5 mb-xl-0">

@@ -27,25 +27,9 @@ ALTER TABLE `notes`
                                     <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Notes de cours Général</button></h3>
                                     <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>Note de cours de Guillaume</strong>
-                                            (en temps réel même). <br>
-                                            <a href="https://guillaumeboen.notion.site/Note-de-cours-fc133f5e7d034db1aaa74d09dac62441">Ici les notes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Epistémologie</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            vide pour l'instant
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Soins de santé primaire</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            vide pour l'instant
+                                            <strong>Note de cours</strong>
+                                            (mis à jour régulièrement). <br>
+                                            <a href="https://iron-burn-5a5.notion.site/Note-de-Cours-437831e7e5bf4b31ae675d38a16569eb">Ici les notes</a>
                                         </div>
                                     </div>
                                 </div>

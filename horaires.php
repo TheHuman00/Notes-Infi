@@ -75,13 +75,13 @@ $groupe = $_GET["groupe"];
         });
 
         </script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGSLL8Z6DB"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7NNEJVT4QH"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-NGSLL8Z6DB');
+        gtag('config', 'G-7NNEJVT4QH');
         </script>
     </head>
     <body class="d-flex flex-column h-100">
