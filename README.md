@@ -45,6 +45,7 @@ Allez dans le fichier `includes/config.php`.
 
 Chercher le fichier `helb.sql`
 Et mettez le dans votre base MYSQL qui se nomera **helb**
+-- Ce fichier est un template --
 
 
 ## ⛏️ Ressources  <a name = "ressources"></a>
