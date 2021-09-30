@@ -3,17 +3,8 @@ $pagetitre = "Notes - Infinotes";
 include_once('./libs/header.php'); 
 
 ?>
-<!-- CREATE TABLE `notes` (
-  `id` int(11) UNSIGNED NOT NULL,
-  `file_name` varchar(255) NOT NULL,
-  `file_type` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-ALTER TABLE `notes`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `id` (`id`);
-ALTER TABLE `notes`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;-->
-<section class="py-5">
+
+            <section class="py-3">
                 <div class="container px-5 my-5">
                     <div class="text-center mb-5">
                         <h1 class="fw-bolder">Des notes de cours ?</h1>

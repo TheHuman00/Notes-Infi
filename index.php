@@ -1,7 +1,7 @@
 <?php $pagetitre = "Accueil - Infinotes";
 include_once('./libs/header.php');
 require_once('./includes/database.php');?>
-            <header class="bg-dark py-5">
+            <header class="bg-dark py-1">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -65,7 +65,7 @@ require_once('./includes/database.php');?>
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xxl-6">
                             <div class="text-center my-5">
-                                <h1 class="fw-bolder mb-3">Des demandes à faire ? Des questions en général ? Envie de nous aider ? </h1>
+                                <h3 class="fw-bolder mb-3">Des demandes à faire ? Des questions en général ? Envie de nous aider ? </h3>
                                 <p class="lead fw-normal text-muted mb-4">Pour n'importe quelle question/demande</p>
                                 <a class="btn btn-primary btn-lg" href="./about.php">Contactez-nous</a>
                             </div>

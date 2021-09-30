@@ -3,13 +3,21 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content="Une plateforme communautaire d'étudiants infirmiers HELB - Avec les horaires et les notes de cours" />
         <meta name="author" content="" />
         <title><?php if(!empty($pagetitre)){echo $pagetitre;}else{echo "Notes - Infirmier";}?></title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link href="css/styles.css" rel="stylesheet" />
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "url": "http://infinotes.me",
+        "logo": "https://i.imgur.com/7zKLSjI.png"
+        }
+        </script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-7NNEJVT4QH"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
@@ -23,7 +31,9 @@
         <main class="flex-shrink-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.php">InfiNotes</a>
+                    <a href="index.php">
+                    <img class="navbar-brand" src="https://i.imgur.com/zFgMzke.png" height="60" wight="60" alt="logo">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
