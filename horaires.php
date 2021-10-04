@@ -56,11 +56,27 @@ $groupe = $_GET["groupe"];
             slotMaxTime: '21:00:00',
             events: 'loadhoraire.php?cursus=<?php echo $cursus;?>&groupe=<?php echo $groupe; ?>',
             eventClick: function(info) {
+            var timestart = new Date(info.event.start);
+            var eventstarthour = timestart.getHours();
+            var eventstartmin = timestart.getMinutes();
+            if(eventstartmin == 0){
+                eventstartmin2 = "00";
+            }else{
+                eventstartmin2 = eventstartmin;
+            }
+            var timeend = new Date(info.event.end);
+            var eventendhour = timeend.getHours();
+            var eventendmin = timeend.getMinutes();
+            if(eventendmin == 0){
+                eventendmin2 = "00";
+            }else{
+                eventendmin2 = eventendmin;
+            }
             eventtile = info.event.title
             eventarray = eventtile.split("Local :");
                 Swal.fire({
                     title: eventarray[0],
-                    html: `<h3>Local : ${eventarray[1]} <h3>`,
+                    html: `<h3>Local : ${eventarray[1]} <h3> <h4>${eventstarthour}:${eventstartmin2} - ${eventendhour}:${eventendmin2}</h4>`,
                     showConfirmButton: true,
                     confirmButtonColor: '#007bff'
                 })
@@ -106,7 +122,7 @@ $groupe = $_GET["groupe"];
             <section class="py-3">
                 <div class="container">
                     <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Horaire de l'HELB</h1>
+                        <h1 class="fw-bolder">Horaire MAJ 3 octobre</h1>
                         <p class="lead fw-normal text-muted mb-0">Cliquez sur les cours pour plus d'info<br><?php echo $_GET["cursus"]; ?> Groupe : <?php echo $_GET["groupe"]; ?></p>
                         <div id='calendar'></div>
                     </div>
@@ -128,6 +144,7 @@ $groupe = $_GET["groupe"];
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="http://www.datejs.com/build/date.js" type="text/javascript"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="js/scripts.js"></script>
     </body>
